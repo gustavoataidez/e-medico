@@ -1,0 +1,667 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #1E1E1E;
+    background-color: #b3d6ff;
+    padding: 20px;
+}
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #1E1E1E;
+}
+span {
+    color: #0360D9;
+}
+.mobile-menu-icon {
+    display: none;
+}
+.mobile-menu {
+    display: none;
+}
+.nav-desktop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #1E1E1E;
+    width: 100vw;
+    background-color: #b3d6ff;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 5vw;
+}
+a {
+    color: #1E1E1E;
+    text-decoration: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+}
+a:hover {
+    color: white;
+    border-bottom: 1.5px solid white;
+}
+.check {
+    color: #0360D9;
+    font-weight: 600;
+    border-bottom: 2px solid #0360D9;
+}
+.botoes {
+    display: flex;
+    gap: 20px;
+}
+.log {
+    background-color: #b3d6ff;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #0360D9;
+    border: #0360D9 solid 2px;
+}
+.log:hover {
+    background-color: #0360D9;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.sing {
+    background-color: #0360D9;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    border: #0360D9 solid 2px;
+}
+.sing:hover {
+    background-color: white;
+    color: #0360D9;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.parte1 {
+    background-color: #b3d6ff;
+    padding-top: 0px;
+}
+.parte1-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 80px 100px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    gap: 50px;
+    max-width: 70vw;
+}
+.parte1-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.parte1-2 h1{
+    font-size: 60px;
+    line-height: 56px;
+    max-width: 800px;
+}
+.buscar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    background-color: white;
+    width: 540px;
+    height: 60px;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+.botao {
+    background-color: #0360D9;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.botao:hover {
+    opacity: 0.8;
+}
+select {
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+select:hover {
+    opacity: 0.8;
+}
+.parte1-4 {
+    position: relative;
+    display: flex;
+    padding: 20px;
+    padding-left: 10vw;
+    background-color: #0360D9;
+    gap: 5vw;
+}
+.quantidade-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+}
+.quantidade-1 h2 {
+    font-size: 50px;
+}
+.quantidade-1 p {
+    font-size: 14px;
+    font-weight: 200;
+}
+.image-medico {
+    position: absolute;
+    right: 5vw;
+    bottom: -5px;
+}
+
+.parte2 {
+    margin: 80px 100px;
+}
+.parte2 h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #1E1E1E;
+    padding-bottom: 10px;
+}
+.parte2-1 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 20px;
+    max-width: 1500px;
+}
+.caixa {
+    border: 2px solid #cbc7bf;
+    border-radius: 20px;
+    padding: 20px;
+    width: 320px;
+    height: auto;
+}
+
+.caixa i {
+    color: #0360D9;
+    font-size: 30px;
+    background-color: #b3d6ff;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h4 {
+    font-size: 20px;
+    padding-top: 14px;
+    padding-bottom: 10px;
+    line-height: 18px;
+}
+.caixa p {
+    font-size: 14px;
+}
+.caixa:hover {
+    background-color: #0360D9;
+    border: 2px solid #0360D9;
+    color: white;
+    transition: 0.3s ease-in-out;
+    transform: translateY(-10px);
+}
+.caixa2 {
+    background-color: #0360D9;
+    border: 2px solid #0360D9;
+    color: white;
+}
+.parte3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 50px;
+    padding-bottom: 120px;
+}
+
+.parte3 img {
+    max-height: 320px;
+    width: auto;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.2);
+}
+
+.parte3 li {
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 20px;
+    color: #1E1E1E;
+    width: 500px;
+}
+
+.parte3 i {
+    color: #0360D9;
+}
+
+.parte3 h2 {
+    color: #1E1E1E;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.parte3 a {
+    color: #0360D9;
+    padding-top: 30px;
+    font-weight: 700;
+}
+
+.parte3 a:hover {
+    opacity: 0.7;
+}
+.parte4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #b3d6ff;
+    padding: 80px;
+}
+.usuarios img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.parte4-1 {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 18px;
+}
+.parte4-1 h2 {
+    color: #1E1E1E;
+    font-size: 30px;
+    line-height: 30px;
+}
+.reviews {
+    display: flex;
+    align-items: center;
+}
+.reviews p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1E1E1E;
+    padding-left: 5px;
+}
+.comentario {
+    width: 500px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    border: 2px solid #cbc7bf;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title p {
+    font-size: 12px;
+    text-align: justify;
+}
+.title h4 {
+    font-size: 18px;
+    color: #1E1E1E;
+    font-weight: 600;
+}
+.title img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.title2 {
+    display: flex;
+    gap: 10px;
+}
+.star {
+    font-size: 24px;
+    color: #f1cd2b;
+}
+.parte6 {
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #0360D9;
+    padding: 60px;
+    border-radius: 50px;
+    color: white;
+}
+.formulario {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 150px;
+}
+.formulario:hover {
+    opacity: 0.8;
+}
+.email {
+    background-color: white;
+    border: none;
+    width: 500px;
+    height: 30px;
+}
+footer {
+    background-color: #0360D9;
+    color: white;
+}
+.footer1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 50px;
+    border-bottom: 1px solid white;
+}
+.footer1 h4 {
+    font-size: 24px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.cabecalho1 {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cabecalho2 li{
+    list-style: none;
+    padding: 4px;
+}
+.cabecalho2 a {
+    font-weight: 400;
+    color: white;
+}
+.cabecalho2 a:hover {
+    color: #1E1E1E;
+    border-bottom: none;
+}
+.cabecalho3 img {
+    width: 180px;
+    height: auto;
+    border-radius: 10px;
+}
+.icons {
+    padding-top: 10px;
+    font-size: 26px;
+    letter-spacing: 4px;
+}
+.icons i:hover {
+    color: #1E1E1E;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.footer2 {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1200px) {
+    .image-medico {
+        display: none;
+    }
+    .nav {
+        display: flex;
+        gap: 3vw;
+    }
+    .parte1-1 {
+        display: flex;
+        flex-direction: column;
+        padding: 8vw;
+        font-family: 'IBM Plex Sans', sans-serif;
+    }
+    .parte1-2 {
+        padding: none;
+    }
+    .parte1-2 h1{
+        font-size: 50px;
+        line-height: 50px;
+        width: 80vw;
+    }
+    .parte1-2 p {
+        width: 80vw;
+    }
+    .parte1-4 {
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+        gap: 12vw;
+    }
+    .parte2-1 {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 10px;
+    }
+    .caixa {
+        width: 30vw;
+    }
+    .parte3 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 50px;
+        padding: 20px;
+        padding-bottom: 60px;
+    }
+    .parte3 li {
+        text-decoration: none;
+        list-style: none;
+        padding-bottom: 20px;
+        color: #1E1E1E;
+        width: 80vw;
+    }
+    .title {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .title2 {
+        display: flex;
+        gap: 15px;
+    }
+    .star {
+        font-size: 20px;
+    }
+    .email {
+        background-color: white;
+        border: none;
+        width: 50vw;
+        height: 40px;
+    }
+}
+
+@media (max-width: 750px) {
+    header {
+        justify-content: space-between;
+        padding: 20px 30px;
+    }
+    .nav {
+        display: none;
+    }
+    .log {
+        display: none;
+    }
+    .sing {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        color: #1E1E1E;
+        font-size: 26px;
+        cursor: pointer;
+    }
+    .nav-item {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+    }
+    .nav-item a {
+        font-weight: 700;
+    }
+    .abrir {
+        display: block;
+    }
+    .botao-item {
+        background-color: #0360D9;
+        width: auto;
+        height: 40px;
+        border-radius: 20px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        color: white;
+        border: #0360D9 solid 2px;
+    }
+    .parte1-1 {
+        gap: 30px;
+        padding-bottom: 60px;
+    }
+    .parte1-2 h1 {
+        font-size: 42px;
+        line-height: 44px;
+    }
+    .buscar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        width: 80vw;
+        height: 60px;
+        border-radius: 30px;
+        padding: 10px;
+        padding-left: 20px;
+    }
+    .botao {
+        background-color: #0360D9;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 14px;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    .parte1-4 {
+        justify-content: space-around;
+        gap: 2vw;
+    }
+    .quantidade-1 h2 {
+        font-size: 36px;
+    }
+    .parte2 {
+        margin: 40px 40px;
+    }
+    .parte2-1 {
+        display: flex;
+        gap: 20px;
+        padding-top: 10px;
+    }
+    .caixa {
+        width: 80vw;
+    }
+    .caixa i {
+        height: 55px;
+        width: 55px;
+        font-size: 25px;
+    }
+    .parte3 {
+        padding: 0px;
+        margin: 40px 30px;
+        gap: 30px;
+    }
+    .parte3 img {
+        width: 80vw;
+    }
+    .parte3 li {
+        padding-bottom: 10px;
+    }
+    .comentario {
+        width: 80vw;
+        padding: 30px;
+        gap: 20px;
+    }
+    .parte4 {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        gap: 30px;
+    }
+    .parte4-1 {
+        width: 80vw;
+    }
+    .parte6 {
+        margin: 20px;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        gap: 10px;
+        padding: 20px;
+        border-radius: 30px;
+    }
+    .formulario {
+        padding: 5px;
+        display: flex;
+        justify-content: flex-end;
+        border-radius: 150px;
+        width: 85vw;
+    }
+    .email {
+        width: 70vw;
+        height: 30px;
+    }
+    .footer1 {
+        display: flex;
+        flex-direction: column;
+    }
+}

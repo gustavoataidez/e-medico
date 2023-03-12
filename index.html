@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+    <title>E-médico</title>
+</head>
+<body>
+    <script src="js/scripts.js"></script>
+    <header>
+        <div class="nav-desktop">
+            <h2>E-<span>médico</span></h2>
+            <nav class="nav">
+                <a class="check" href="#">Início</a>
+                <a href="#">Sobre</a>
+                <a href="#">Aplicativo</a>
+                <a href="#">Planos</a>
+            </nav>
+            <div class="botoes">
+                <button class="log">Entrar</button>
+                <button class="sing">Cadastrar</button>
+            </div>
+        <div class="mobile-menu-icon">
+            <button onclick="menuAparecer()"><i class="fa-solid fa-bars"></i></button>
+        </div>
+        </div>
+        <div class="mobile-menu">
+            <nav class="nav-item">
+                <a href="#">Início</a>
+                <a href="#">Sobre</a>
+                <a href="#">Aplicativo</a>
+                <a href="#">Planos</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="parte1">
+            <div class="parte1-1">
+                <div class="parte1-2">
+                    <h1 id="title1">Procure e encontre seu <span class="favourite">Doutor Favorito.</span></h1>
+                    <p>Aqui você encontrará informações sobre nossa equipe de médicos altamente qualificados e experientes. Nossos médicos são especialistas em diversas áreas da medicina, incluindo clínica geral, pediatria, ginecologia e outras.</p>
+                </div>
+                <div class="parte1-3">
+                    <form class="buscar" action="">
+                        <div>
+                            <i class="fa-solid fa-user"></i>
+                            <select name="doctor-name" id="doctor-name">
+                                <option selected disabled value=""><i class="fa-solid fa-location-dot"></i>Dr.(Dra)</option>
+                                <option value="">Joao</option>
+                                <option value="">Junior</option>
+                                <option value="">Maria</option>
+                            </select>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <select name="location" id="location">
+                                <option selected disabled value=""><i class="fa-solid fa-location-dot"></i>Localização</option>
+                                <option value="">Maceió</option>
+                                <option value="">Recife</option>
+                                <option value="">Aracaju</option>
+                            </select>
+                        </div>
+                        <button class="botao" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="parte1-4">
+                <div class="quantidade-1">
+                    <h2>24hrs</h2>
+                    <p>Suporte Online</p>
+                </div>
+                <div class="quantidade-1">
+                    <h2>+50</h2>
+                    <p>Doutores</p>
+                </div>
+                <div class="quantidade-1">
+                    <h2>+2mil</h2>
+                    <p>Pacientes Ativos</p>
+                </div>
+                <div class="image-medico">
+                    <img src="img/medico.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="parte2">
+            <h2>Tratamos dos seus problemas</h2>
+            <div class="parte2-1">
+                <div class="caixa">
+                    <i class="fa-solid fa-virus-covid"></i>
+                    <h4 class="h4">Teste Covid-19</h4>
+                    <p>A COVID-19 é uma doença infecciosa causada pelo coronavírus SARS-CoV-2. Os sintomas podem variar de leves a graves e incluem febre, tosse, dificuldade para respirar e perda do olfato ou paladar.</p>
+                </div>
+                <div class="caixa caixa2">
+                    <i class="fa-solid fa-lungs"></i>
+                    <h4 class="h4">Pulmões saudáveis</h4>
+                    <p>Os pulmões são um órgão vital para a saúde, pois são responsáveis por fornecer oxigênio ao nosso corpo e eliminar dióxido de carbono. Por isso, é importante cuidar deles para manter uma boa saúde respiratória.</p>
+                </div>
+                <div class="caixa">
+                    <i class="fa-solid fa-capsules"></i>
+                    <h4 class="h4">Suplementos</h4>
+                    <p>Aqui você encontrará uma ampla variedade de suplementos de alta qualidade para melhorar sua saúde e bem-estar. Nós oferecemos suplementos para diferentes áreas, incluindo saúde cardiovascular, da pele, dos ossos e muito mais.</p>
+                </div>
+                <div class="caixa">
+                    <i class="fa-solid fa-brain"></i>
+                    <h4 class="h4">Saúde mental</h4>
+                    <p>A saúde mental é tão importante quanto a saúde física e é essencial para um bem-estar geral. Infelizmente, muitas pessoas enfrentam problemas de saúde mental, como ansiedade e depressão, e as vezes não sabem como lidar com esses problemas.</p>
+                </div>
+            </div>
+        </div>
+        <div class="parte3">
+            <img src="img/cirurgia2.jpg" alt="">
+            <div class="text">
+                <h2>Nossas especialidades</h2>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> <span>Cardiologia:</span> é a especialidade médica que se concentra no diagnóstico e tratamento de doenças do coração e vasos sanguíneos.</li>
+                    <li><i class="fa-solid fa-check"></i> <span>Ortopedia:</span> é a especialidade médica que se concentra no diagnóstico e tratamento de doenças e lesões dos ossos, músculos e articulações.</li>
+                    <li><i class="fa-solid fa-check"></i> <span>Oncologia:</span> é a especialidade médica que se concentra no diagnóstico e tratamento de tumores malignos.</li>
+                    <li><i class="fa-solid fa-check"></i> <span>Neurologia:</span> é a especialidade médica que se concentra no diagnóstico e tratamento de doenças do sistema nervoso central e periférico.</li>
+                    <li><i class="fa-solid fa-check"></i> <span>Pneumologia:</span> é a especialidade médica que se concentra no diagnóstico e tratamento de doenças pulmonares, como asma, bronquite, DPOC e câncer de pulmão.</li>
+                </ul>
+                <a href="#">Saiba mais <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="parte4">
+            <div class="parte4-1">
+                <h2>O Que <span>Nossos Membros</span> Dizem Sobre Nós</h2>
+                <p>Além de fornecer assistência médica de qualidade, também nos esforçamos para garantir que nossos pacientes se sintam confortáveis e bem-informados durante todo o processo.</p>
+                <div class="reviews">
+                    <div class="usuarios">
+                        <img class="user user1" src="img/pessoa4.jpg" alt="">
+                        <img class="user user2" src="img/pessoa3.png" alt="">
+                        <img class="user user3" src="img/pessoa5.jpg" alt="">
+                    </div>
+                    <p>+50 Avaliações</p>
+                </div>
+            </div>
+            <div class="comentario">
+                <div class="title">
+                    <div class="title2">
+                        <img src="img/pessoa2.jpg" alt="">
+                        <div class="nome">
+                            <h4>João Gabriel</h4>
+                            <p>12/04/2022</p>
+                        </div>
+                    </div>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <p>Fiz o plano anual e quando precisei eles deram o maior suporte. A equipe médica foi incrivelmente profissional e prestativa, sempre disposta a responder minhas perguntas e me tranquilizar. Eu recomendo para qualquer um que precise de cuidados médicos de alta qualidade.</p>
+            </div>
+        </div>
+        <div class="parte6">
+            <h2>Coloque seu e-mail para receber nossas notícias</h2>
+            <div class="formulario">
+                <form action="">
+                    <input class="email" type="email">
+                    <button class="botao" type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer1">
+            <div class="cabecalho1">
+                <h4>E-médico</h4>
+                <p>A E-médico está sempre atualizada com as últimas pesquisas e tecnologias para garantir que você receba o melhor cuidado possível.</p>
+                <p> Nós estamos ansiosos para cuidar de você e sua família!</p>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+            <div class="cabecalho2">
+                <h4>Links Úteis</h4>
+                <ul>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Política de privacidade</a></li>
+                    <li><a href="#">Nossa missão</a></li>
+                    <li><a href="#">Nosso time</a></li>
+                </ul>
+            </div>
+            <div class="cabecalho3">
+                <h4>Endereço</h4>
+                <img src="img/maps.jpeg" alt="">
+            </div>
+        </div>
+        <div class="footer2">
+            <p><i class="fa-solid fa-copyright"></i> 2023 Todos os direitos reservados.</p>
+            <p>Desenvolvido por Gustavo Ataide</p>
+        </div>
+    </footer>
+</body>
+</html>
